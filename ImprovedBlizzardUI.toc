@@ -1,4 +1,4 @@
-## Interface: 80000
+## Interface: 30300
 ## Title: Improved Blizzard UI
 ## Notes: A variety of improvements to the default Blizzard UI
 ## Version: @project-version@
@@ -16,7 +16,6 @@ libs\Wasabi\embed.xml
 
 # Localisation Files
 localisation.lua
-localisation\locale-deDE.lua
 
 core.lua
 
