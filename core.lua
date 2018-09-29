@@ -21,8 +21,7 @@ Imp_OSD.fadeTimer = nil;
 Imp_OSD.fadeInAnim = Imp_OSD:CreateAnimationGroup();
 Imp_OSD.fadeIn = Imp_OSD.fadeInAnim:CreateAnimation('Alpha');
 Imp_OSD.fadeIn:SetDuration(0.20);
-Imp_OSD.fadeIn:SetFromAlpha(0);
-Imp_OSD.fadeIn:SetToAlpha(1);
+Imp_OSD.fadeIn:SetChange(1);
 Imp_OSD.fadeIn:SetOrder(1);
 
 Imp_OSD.fadeInAnim:SetScript('OnFinished', function() 
@@ -33,8 +32,7 @@ end);
 Imp_OSD.fadeOutAnim = Imp_OSD:CreateAnimationGroup();
 Imp_OSD.fadeOut = Imp_OSD.fadeOutAnim:CreateAnimation('Alpha');
 Imp_OSD.fadeOut:SetDuration(0.20);
-Imp_OSD.fadeOut:SetFromAlpha(1);
-Imp_OSD.fadeOut:SetToAlpha(0);
+Imp_OSD.fadeOut:SetChange(-1);
 Imp_OSD.fadeOut:SetOrder(1);
 
 Imp_OSD.fadeOutAnim:SetScript('OnFinished', function() 
