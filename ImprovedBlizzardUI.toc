@@ -1,7 +1,7 @@
 ## Interface: 30300
 ## Title: Improved Blizzard UI
 ## Notes: A variety of improvements to the default Blizzard UI
-## Version: @project-version@
+## Version: 1.0.0 WotLK Edition
 ## Author: Kaytotes
 ## OptionalDeps: Wasabi
 ## SavedVariables: PrimaryDB, FramesDB, BarsDB
@@ -10,15 +10,15 @@
 ## X-WoWI-ID: 23299
 
 # Libs
-libs\LibStub\LibStub.lua
-libs\Wasabi\embed.xml
+#libs\LibStub\LibStub.lua
+#libs\Wasabi\embed.xml
 
 # Localisation Files
 localisation.lua
 
 core.lua
 
-config.lua
+#config.lua
 
 # Modules
 #modules\misc\afkcamera.lua
